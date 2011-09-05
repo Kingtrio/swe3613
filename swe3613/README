@@ -1,7 +1,0 @@
-The repository for SWE3613.
-
-Some general layout thoughts/ideas:
-
-Folders for draft and each milestone.
-
-No versions in the filenames! Git wil handle versioning for us. Github can show some nice graphical stuff to look at history and such.
