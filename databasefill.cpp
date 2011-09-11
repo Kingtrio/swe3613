@@ -17,7 +17,7 @@ int main()
   icd9.open("icd9.txt");
   sqlite3_open("icd.db", &db);
   sqlite3_stmt *stmt; 
- /* char sql[256];
+  char sql[256];
   sprintf(sql, "%s", "INSERT INTO icd9(Id,Desc) VALUES(?,?)");
   sqlite3_prepare(db, sql, -1, &stmt, 0);
   while(icd9.good())
@@ -58,7 +58,7 @@ int main()
     }
   }
   icd10.close();                         
-  */
+  
   char sql3[256];
   ifstream icd10to9;
   icd10to9.open("icd10to9.txt");
